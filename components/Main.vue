@@ -989,7 +989,28 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
+:root {
+    --maincolor: #FEE3EC;
+    --secondcolor: #F9C5D5;
+    --thirdcolor: #F999B7;
+    --fourthcolor: #F2789F;
+    --fifthcolor: #A624DB;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+}
+body {
+    background-color: var(--maincolor);
+    font-family: "Lato", sans-serif;
+}
 #banner {
     width: 100%;
 }

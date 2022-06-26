@@ -23,7 +23,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~/assets/css/style.scss'
+    // '~/assets/css/style.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -62,6 +62,6 @@ export default {
   },
 
   generate: {
-    dir: 'dist'
+    dir: 'docs'
   }
 }
