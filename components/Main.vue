@@ -941,15 +941,15 @@ export default {
         alert('Pense à remplir ton nom et ton email :)')
         return
       }
-      // if (!this.validEmail(this.email)) {
-      //   alert('Attention, ton email semble invalide')
-      //   return
-      // }
+      if (!this.validEmail(this.email)) {
+        alert('Attention, ton email semble invalide')
+        return
+      }
 
-      // if (!this.isAllAnswered) {
-      //   alert('Pense à répondre à toutes les questions :)')
-      //   return
-      // }
+      if (!this.isAllAnswered) {
+        alert('Pense à répondre à toutes les questions :)')
+        return
+      }
 
       const myHeaders = new Headers()
       myHeaders.append('Content-Type', 'application/json')
