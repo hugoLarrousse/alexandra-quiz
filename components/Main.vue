@@ -773,7 +773,7 @@
     <div class="introduction">
       <h1>Qui suis-je ?</h1><br>
       <div>
-        Salut, je suis Alexandra.🌸 <br><br>
+        Salut, je suis Alexandra.🌸
 
         <img id="alexandra" src="~/assets/alexandra.png">
 
@@ -1119,8 +1119,7 @@ body {
 #alexandra {
   border-radius: 50%;
   display: flex;
-  margin: auto;
-  margin-bottom: 10px;
+  margin-bottom: 10px auto;
   width: 200px;
 }
 
