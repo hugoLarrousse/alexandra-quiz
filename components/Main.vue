@@ -953,7 +953,7 @@ export default {
       this.result = this.yesAnswers
       // location.hash = '#results'
       if (!this.isAlreadySent) {
-        fetch('https://maker.ifttt.com/trigger/form_submitted/with/key/dHtIWuEacFEAbYgjhDgYl2nhuu2khaECxbyii4JUwaN', requestOptions).then(() => {
+        fetch('https://maker.ifttt.com/trigger/form_submitted/with/key/pak0opgcXKUKVCH-XunjL6PRD_L8fVUdUi9A42OqxPc', requestOptions).then(() => {
           this.isAlreadySent = true
           if (this.result <= 3) {
             location.hash = '#results1'
