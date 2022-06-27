@@ -20,7 +20,7 @@
 <template>
   <div>
     <div>
-      <img id="banner" src="banner.png">
+      <img id="banner" src="~/assets/banner2.png">
     </div>
 
     <div class="introduction">
@@ -794,6 +794,8 @@
       <p>
         Salut, je suis Alexandra.🌸 <br><br>
 
+        <img id="alexandra" src="alexandra.png">
+
         Mon objectif ? T’accompagner vers une relation plus saine et consciente. <br><br>
 
         Je t'aide à retrouver confiance en toi et à comprendre pourquoi ta relation est en péril. Ensemble,
@@ -1131,6 +1133,10 @@ body {
 
 .results h2 {
     text-align: center;
+}
+
+#alexandra {
+  border-radius: 50%;
 }
 
 @media only screen and (min-width: 930px) {
