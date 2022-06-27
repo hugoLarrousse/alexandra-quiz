@@ -21,12 +21,6 @@
   <div>
     <div>
       <img id="banner" src="~/assets/banner2.png">
-      <!-- <img id="banner1" src="/banner2.png">
-      <img id="banner2" src="./banner2.png">
-      <img id="banner3" src="./banner2.png">
-      <img id="banner4" src="../assets/banner2.png">
-      <img id="banner5" src="./../assets/banner2.png">
-      <img id="banner6" src="/assets/banner2.png"> -->
     </div>
 
     <div class="introduction">
@@ -797,10 +791,10 @@
 
     <div class="introduction">
       <h1>Qui suis-je ?</h1><br>
-      <p>
+      <div>
         Salut, je suis Alexandra.🌸 <br><br>
 
-        <img id="alexandra" src="alexandra.png">
+        <img id="alexandra" src="~/assets/alexandra.png">
 
         Mon objectif ? T’accompagner vers une relation plus saine et consciente. <br><br>
 
@@ -809,7 +803,7 @@
 
         Mes expériences de vies et professionnelles ainsi que ma formation en coaching, me permettent de t'apporter
         toutes les clés pour que tu t'épanouisses pleinement dans tes relations et que tu sois enfin toi-même !
-      </p>
+      </div>
     </div>
   </div>
 </template>
@@ -1143,6 +1137,10 @@ body {
 
 #alexandra {
   border-radius: 50%;
+  display: flex;
+  margin: auto;
+  margin-bottom: 10px;
+  width: 200px;
 }
 
 @media only screen and (min-width: 930px) {
@@ -1171,6 +1169,9 @@ body {
     .datas {
         width: 75%;
         margin: 100px auto;
+    }
+    #alexandra {
+      width: 300px;
     }
 }
 </style>
