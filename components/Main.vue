@@ -1047,10 +1047,10 @@ body {
 }
 
 .clicked {
-    background-color: red;
+    background-color: var(--fifthcolor);
 }
 .clicked:hover {
-  background-color: red;
+  background-color: var(--fifthcolor);
 }
 
 .firstletter {
