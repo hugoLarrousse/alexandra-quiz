@@ -777,13 +777,15 @@
 
         <img id="alexandra" src="~/assets/alexandra.png">
 
-        Mon objectif ? T’accompagner vers une relation plus saine et consciente. <br><br>
+        <div class="toborder">
+          Mon objectif ? T’accompagner vers une relation plus saine et consciente. <br><br>
 
-        Je t'aide à retrouver confiance en toi et à comprendre pourquoi ta relation est en péril. Ensemble,
-        déconstruisons les croyances qui t’empêchent de t’épanouir pleinement.<br><br>
+          Je t'aide à retrouver confiance en toi et à comprendre pourquoi ta relation est en péril. Ensemble,
+          déconstruisons les croyances qui t’empêchent de t’épanouir pleinement.<br><br>
 
-        Mes expériences de vies et professionnelles ainsi que ma formation en coaching, me permettent de t'apporter
-        toutes les clés pour que tu t'épanouisses pleinement dans tes relations et que tu sois enfin toi-même !
+          Mes expériences de vies et professionnelles ainsi que ma formation en coaching, me permettent de t'apporter
+          toutes les clés pour que tu t'épanouisses pleinement dans tes relations et que tu sois enfin toi-même !
+        </div>
       </div>
     </div>
   </div>
@@ -1152,6 +1154,14 @@ body {
     }
     #alexandra {
       width: 300px;
+    }
+
+    .toborder {
+        border: 1px solid var(--fourthcolor);
+        border-radius: 6px;
+        padding: 10px;
+        width: 50%;
+        margin: auto;
     }
 }
 </style>
