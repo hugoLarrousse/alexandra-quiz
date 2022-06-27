@@ -1119,7 +1119,7 @@ body {
 #alexandra {
   border-radius: 50%;
   display: flex;
-  margin-bottom: 10px auto;
+  margin: 10px auto;
   width: 200px;
 }
 
