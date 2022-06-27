@@ -1,22 +1,3 @@
-<!-- <template>
-  <div class="">
-    Hello
-    <div>
-      <div> Question 1</div>
-      <div :class="questions[0].answer === 'y' && 'clicked'" @click="updateAnswer(0, 'y')">
-        Yes
-      </div>
-
-      <div :class="questions[0].answer === 'n' && 'clicked'" @click="updateAnswer(0, 'n')">
-        No
-      </div>
-      <button @click="submit">
-        SUBMIT
-      </button>
-    </div>
-  </div>
-</template> -->
-
 <template>
   <div>
     <div>
