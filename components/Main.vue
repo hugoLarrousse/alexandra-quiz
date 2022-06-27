@@ -22,8 +22,8 @@
     <div>
       <img id="banner" src="~/assets/banner2.png">
       <img id="banner1" src="/banner2.png">
-      <img id="banner2" src="./banner2.png">
-      <img id="banner3" src="./banner2.png">
+      <!-- <img id="banner2" src="./banner2.png">
+      <img id="banner3" src="./banner2.png"> -->
       <img id="banner4" src="../assets/banner2.png">
       <img id="banner5" src="./../assets/banner2.png">
       <img id="banner6" src="/assets/banner2.png">
