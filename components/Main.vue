@@ -6,8 +6,9 @@
 
     <div class="introduction">
       <p>
-        Tout le monde mérite d'être dans une relation sûre et saine.<br>
-        Sais-tu si c’est le cas de ta relation ? Réponds par oui ou par non aux questions suivantes pour le découvrir.
+        Que ça soit en amour, au travail ou en amitié, nos relations ont un impact direct sur notre bien-être.<br>
+        Si celles-ci sont toxiques, alors ton bien-être mental peut en prendre un coup. Sais-tu si c’est le cas de ta relation ?<br>
+        Réponds par oui ou par non aux questions suivantes pour le découvrir.
       </p>
     </div>
 
@@ -19,7 +20,7 @@
             1.
           </div>
           <div class="questioncontent">
-            Au début de ta relation, tu étais comblé(e) d’amour et d’un coup, ça s’est arrêté.<br><br>
+            Au début de ta relation, tu étais comblé(e) et d’un coup, ça s’est arrêté.<br><br>
             <div :class="questions[0].answer === 'y' && 'clicked'" class="yesorno" @click="updateAnswer(0,'y')">
               <div class="firstletter">
                 O
@@ -773,18 +774,16 @@
     <div class="introduction">
       <h1>Qui suis-je ?</h1><br>
       <div>
-        Salut, je suis Alexandra.🌸
+        Salut, je suis Alexandra 🌸
 
         <img id="alexandra" src="~/assets/alexandra.png">
 
         <div class="toborder">
-          Mon objectif ? T’accompagner vers une relation plus saine et consciente. <br><br>
+          Mon objectif ? Te faire gagner en confiance en toi et en estime de soi.<br><br>
 
-          Je t'aide à retrouver confiance en toi et à comprendre pourquoi ta relation est en péril. Ensemble,
-          déconstruisons les croyances qui t’empêchent de t’épanouir pleinement.<br><br>
+Je t'aide à retrouver ton bien-être mental. Ensemble, déconstruisons les croyances qui t’empêchent de t’épanouir pleinement dans ton quotidien.<br><br>
 
-          Mes expériences de vies et professionnelles ainsi que ma formation en coaching, me permettent de t'apporter
-          toutes les clés pour que tu t'épanouisses pleinement dans tes relations et que tu sois enfin toi-même !
+Mes expériences personnelles et professionnelles ainsi que ma formation en coaching, me permettent de t'apporter toutes les clés pour que tu vives la vie que tu as envie de vivre et que tu sois enfin toi-même !
         </div>
       </div>
     </div>
